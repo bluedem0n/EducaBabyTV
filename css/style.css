@@ -146,6 +146,29 @@ nav a:focus {
 	opacity: 0.8;
 }
 
+/* YOUTUBE */
+
+.fancybox-type-iframe .fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-type-iframe .fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fancybox-type-iframe .fancybox-nav:hover span {
+    opacity: 1;
+}
+
+.fancybox-type-iframe .fancybox-next {
+    right: -60px;
+}
+
+.fancybox-type-iframe .fancybox-prev {
+    left: -60px;
+}
+
 
 /*-----Video Hero----*/
 
@@ -719,7 +742,7 @@ li.nbs-flexisel-item {
 
 /*Eliminates padding, centers the thumbnail */
 
-a.lightbox img {
+a.various img {
 	width: 100%;
 	-webkit-transition: .5s ease-in-out;
 	-moz-transition: .5s ease-in-out;
