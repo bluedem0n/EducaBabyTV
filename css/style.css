@@ -2122,7 +2122,9 @@ p.reply i:hover {
 	background-position: center center;
 	background-size: cover;
 }
-
+.spot{
+	margin-top: 3em;
+}
 .titulo {
 	text-align: left;
 	margin-bottom: 1em;
