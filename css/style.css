@@ -739,6 +739,7 @@ i.s3 {
 
 .catalogo {
 	padding: 1em 0 7em 0px;
+	padding-top: 5em;
 }
 
 .latest-grids {
@@ -2122,9 +2123,11 @@ p.reply i:hover {
 	background-position: center center;
 	background-size: cover;
 }
-.spot{
+
+.spot {
 	margin-top: 3em;
 }
+
 .titulo {
 	text-align: left;
 	margin-bottom: 1em;
@@ -2136,6 +2139,7 @@ p.reply i:hover {
 
 .karaoke {
 	padding: 2em 0 0em 0;
+	padding-top: 6em;
 }
 
 .karaoke h3 {
