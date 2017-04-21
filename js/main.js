@@ -45,8 +45,7 @@ $(window).load(function () {
 	});
 });
 $("span.menu").click(function () {
-	$(".top-menu").slideToggle("slow", function () {
-	});
+	$(".top-menu").slideToggle("slow", function () {});
 });
 jQuery(document).ready(function ($) {
 	$(".scroll").click(function (event) {
@@ -55,4 +54,22 @@ jQuery(document).ready(function ($) {
 			scrollTop: $(this.hash).offset().top
 		}, 1000);
 	});
+});
+/* ---------------------------------------------- /*
+		 * Smooth scroll / Scroll To Top
+/* ---------------------------------------------- */
+$('a[href*=#]').bind("click", function (e) {
+	var anchor = $(this);
+	$('html, body').stop().animate({
+		scrollTop: $(anchor.attr('href')).offset().top
+	}, 1000);
+	e.preventDefault();
+});
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 100) {
+		$('.scroll-up').fadeIn();
+	}
+	else {
+		$('.scroll-up').fadeOut();
+	}
 });
