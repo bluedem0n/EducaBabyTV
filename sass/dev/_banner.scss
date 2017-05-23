@@ -1,0 +1,32 @@
+.main-banner{
+	width: 100%;
+	position: relative;
+	z-index: 10;
+	.video{
+		width: 100%;
+		position: relative;
+	} 
+	.main-logo{
+		position: absolute;
+		left: 0;
+		top: 0; 
+		@include to(m){
+			top: 5em; 
+		}
+		@include to(350px){
+			top: 4.5em; 
+		}
+		img{
+			width: 350px; 
+			@include to(600px){
+				width: 180px; 
+			}
+			@include to(m){
+				width: 160px; 
+			}
+			@include to(350px){
+				width: 150px; 
+			}
+		}
+	}
+}

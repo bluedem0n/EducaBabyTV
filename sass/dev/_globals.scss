@@ -1,0 +1,186 @@
+#index{
+	position: relative;
+	z-index: -50;
+}
+.active-catalogo{
+	background: $blanco !important;
+	color: $color1; 
+	font-weight: bold; 
+}
+
+.button{
+	display: table;
+	padding: 8px 20px;
+	margin: auto;
+	border: 1px solid rgba($negro1,.2);
+	color: $blanco;
+	background: $color1;  
+	letter-spacing: 1px; 
+	transition: all .8s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: inset 0 0 20px rgba($blanco, .2);
+    
+	&:hover{
+		cursor: pointer;
+	}
+}
+.subir{
+	position: fixed;
+	right: 1em;
+	bottom: 1em;  
+	padding: .1em .3em; 
+	padding-top: 0;  
+	span{
+		color: $color1;
+		font-size: 2em; 
+		vertical-align: middle;
+	}
+}
+
+.description{
+	color: $gris1;
+	padding: .3em 0; 
+}
+::selection {
+    background: $color1;
+    color: $blanco;
+    text-shadow: none;
+}
+
+.active{
+	color: $color1 !important;
+	position: relative;
+	@include from(md){
+		&::before{
+			content: "";
+			width: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 1px;
+			background: $color1;    
+		}
+	} 
+}
+
+.views {
+	color: $color1;
+}
+.total {
+	font-family: arial;
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+/* Aqui empiezan los Estilos de las Visitas */
+#contentt {
+	padding: 5px;
+	margin: 5px auto;
+	background: $blanco;
+	box-shadow: 1px 1px 14px #888888;
+}
+
+#contentt2 {
+	padding: 5px;
+	margin: 5px auto;
+	cursor: pointer;
+	appearance:button;
+	-moz-appearance:button; /* Firefox */
+	-webkit-appearance:button; /* Safari and Chrome */
+}
+#contentt2 span {
+	-moz-user-select: none; /* Firefox */
+	-webkit-user-select: none; /* Safari y Chrome */
+}
+
+#modal-aliado1,
+#modal-aliado2{
+	.mfp-close{
+		color:  $color1 !important;
+		background: $blanco;
+		padding: 1em;
+		padding-top: 0;   
+		position: absolute;
+		right: 1em;
+		top: 1em; 
+		font-size: 2em;  
+	}
+	.container{
+		background: $blanco;
+		position: relative;
+		.item{
+			.items{
+				display: flex;
+				flex-direction: column;
+				align-items: center; 
+				justify-content: center; 
+				padding: 1em; 
+				.poster{
+					width: 300px; 
+					margin: auto; 
+				}
+				.title{
+					text-align: center;
+					padding-top: .5em;
+					font-size: 1.2em;  
+					padding-bottom: .5em; 
+				}
+				.description{
+					width: 50%;
+					margin: auto; 
+					text-align: center;
+					@include to(md){
+						width: 80%; 
+					} 
+					@include to(m){
+						width: 100%; 
+					}
+				}
+				.rrss{
+					ul{
+						display: flex;
+						justify-content: flex-end; 
+						li{
+							color: $negro2;
+							background: $color1;
+							margin: .5em; 
+							padding: .5em .8em; 
+							a{
+								color: $blanco;
+								span{
+									color:  $blanco;
+									font-size: 1.3em;
+								}
+							}
+						}
+					}
+				}
+				.list{
+					li{
+						color: $negro2;
+						padding: .4em 0; 
+						a{
+							color: $negro2;
+							span{
+								color:  $blanco;
+								font-size: 1.2em;
+								  
+								background: $color1;
+								margin: .5em; 
+								padding: .4em .6em; 
+								margin-right: .3em;
+							}
+						}
+						span{
+							color:  $blanco;
+							font-size: 1.2em;
+							background: $color1;
+							margin: .5em; 
+							padding: .4em .6em; 
+							margin-right: .3em;
+						}
+					}
+				}
+			}
+		} 
+	}
+}

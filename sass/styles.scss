@@ -1,0 +1,44 @@
+$cssCore: false;
+$cssHelpers: true;
+$devMode: false;
+
+
+// Variables (Paleta de colores)
+$negro1:   #000000;
+$negro2:   #222222;
+$blanco:   #ffffff;
+$gris1:    #666666;
+$gris2:    #f2f2f2;
+$color1:   #5bb2fc;
+$color2:   #ffa659;
+$color3:   #58ebd3;
+$color4:   #ff7a85;
+$color5:   #B881CF;
+$color6:   #fec63f;
+
+
+// Añadir librerias base para el funcionamiento y diseño del sitio web
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/animate';
+@import 'base/animated-scroll';
+
+ 
+// Importando Framework EDgrid
+@import 'edgrid/ed-grid';
+
+// Variables (Fuentes)
+$raleway: 'Raleway', sans-serif;
+$montserrat: 'Fugaz One', cursive;
+.title{
+	font-family: $montserrat; 
+}
+
+@import 'base/lightslider';
+
+// Archivos dev
+@import 'dev/globals';
+@import 'dev/header';
+@import 'dev/banner';
+@import 'dev/main';
+@import 'dev/footer';
