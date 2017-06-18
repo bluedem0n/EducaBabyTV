@@ -98,6 +98,7 @@
 						<img src="img/calaveras.jpg" alt="Calavera" class="poster">
 						<div class="copy">
 							<h2 class="title">Las Calaveras</h2>
+							<!--<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro illum dolorem, non nostrum! Consequatur minima, impedit dolores iste optio, itaque sequi iusto. Odit, saepe illo, doloremque fuga numquam accusantium sit!</p>-->
 						</div>
 					</a>
 				</div>
@@ -165,15 +166,15 @@
 		<div class="item wow slideInUp">
 			<div class="grid">
 				<div class="items">
-					<span class="icon-music"></span>
+					<span class="fa fa-music"></span>
 					<p class="description">EducaBabyTV es un canal dedicado a producir canciones infantiles para que niños de todas las edades, aprendan cantando y Jugando</p>
 				</div>
 				<div class="items">
-					<span class="icon-music"></span>
+					<span class="fa fa-heart"></span>
 					<p class="description">En EducaBabyTV sabemos que con la con la música y cantando se pueden aprender muchas cosas, que ayudaran a los peques a desarrollar y estimular su memoria, así como también su inteligencia.</p>
 				</div>
 				<div class="items">
-					<span class="icon-music"></span>
+					<span class="fa fa-child"></span>
 					<p class="description">EducaBabyTV es la mejor opción para que los pequeños se aprendan a través de la música.</p>
 				</div>
 			</div>
@@ -186,8 +187,8 @@
 		<div class="item">
 			<h2 class="title">Descarga nuestro primer álbum musical en: </h2>
 			<div class="buttons">
-				<a href="https://itunes.apple.com/us/album/ronda-musical-infantil/id1184689175" class="button" target="_blank"><span class="icon-itunes"></span> iTunes</a>
-				<a href="https://play.spotify.com/album/0sJyrcUs0wpott1tvJvNXj" class="button" target="_blank"><span class="icon-spotify"></span> Spotify</a>
+				<a href="https://itunes.apple.com/us/album/ronda-musical-infantil/id1184689175" class="button" target="_blank"><span class="fa fa-apple"></span> iTunes</a>
+				<a href="https://play.spotify.com/album/0sJyrcUs0wpott1tvJvNXj" class="button" target="_blank"><span class="fa fa-spotify"></span> Spotify</a>
 			</div>
 			<a href="https://www.facebook.com/educababytv/" class="button button-fb" target="_blank"><span class="icon-facebook"></span> Visita nuestra fan page</a>
 		</div>
@@ -206,7 +207,7 @@
 						<img src="img/aliado1.jpg" alt="Aliado" class="poster">
 						<div class="overlay">
 							<a href="#modal-aliado1" class="popup-with-form">
-								<div class="icon">Ver más <span class="icon-zoom"></span></div></a>
+								<div class="icon">Ver más <span class="fa fa-search"></span></div></a>
 							<div id="modal-aliado1" class="mfp-hide white-popup-block">
 								<div class="container">
 									<div class="item">
@@ -256,7 +257,7 @@
 						<img src="img/aliado2.jpg" alt="Aliado" class="poster">
 						<div class="overlay">
 							<a href="#modal-aliado2" class="popup-with-form">
-								<div class="icon">Ver más <span class="icon-zoom"></span></div></a>
+								<div class="icon">Ver más <span class="fa fa-search"></span></div></a>
 							<div id="modal-aliado2" class="mfp-hide white-popup-block">
 								<div class="container">
 									<div class="item">
@@ -319,7 +320,7 @@
 					fclose($abre); // Cerramos la conexión al archivo
 
 					// Imprimimos el total de visitas dándole un formato
-					echo "<div id='contentt'><img src='img/views.png' alt='' /><span class='total'>Total de visitas: <span class='views'>".$total."</span></span></div>";
+					echo "<div id='contentt'><span class='fa fa-eye' aria-hidden='true'></span><span class='total'> Total de visitas: <span class='views'>".$total."</span></span></div>";
 				?>
             </div>
         </div>

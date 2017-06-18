@@ -19,6 +19,7 @@
     <!--Archivos JavaScript-->
     <?php include('inc/scripts.php') ?>
     <div class="subir">
-        <a href="#inicio" class="subir" id="subir"><span class="icon-arrow-top"></span></a>
+        <a href="#inicio" class="subir" id="subir"><span class="fa fa-angle-up"></span></a>
     </div>
+ </body>   
 </html>

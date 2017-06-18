@@ -185,7 +185,7 @@
             },
             controls: function () {
                 if (settings.controls) {
-                    $el.after('<div class="lSAction"><a class="lSPrev">' + settings.prevHtml + '<span class="icon-left-open"></span></a><a class="lSNext"><span class="icon-right-open"></span>' + settings.nextHtml + '</a></div>');
+                    $el.after('<div class="lSAction"><a class="lSPrev">' + settings.prevHtml + '<span class="fa fa-chevron-left"></span></a><a class="lSNext"><span class="fa fa-chevron-right"></span>' + settings.nextHtml + '</a></div>');
                     if (!settings.autoWidth) {
                         if (length <= settings.item) {
                             $slide.find('.lSAction').hide();

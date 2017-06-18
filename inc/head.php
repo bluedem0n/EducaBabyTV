@@ -1,7 +1,7 @@
 <!--Etiquetas meta-->
 <meta charset="UTF-8">
 <meta name="owner" content="Sthefany Floriano">
-<meta name="author" content="http://codespacelab.com">
+<meta name="author" content="http://codespaceperu.com">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Educababytv, canciones infantiles,musica,infantiles,niños,aprende jugando,juegos,bebes,musica de cuna,tienda virtual,spotify para niños">
@@ -17,5 +17,6 @@
 <link rel="icon" href="img/favicon.jpg">
 <link rel="stylesheet" href="css/styles.css">
 <link href="https://file.myfontastic.com/7xqxiVQ99fabVQXMHSfKmK/icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
 
 <link rel="stylesheet" href="css/popup.css">
